@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bd67bf3e7f44b07a13b08f480b9fdf, type: 3}
+  m_Name: Fly Straight
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6912816092461123269, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+  score: 1
+  duration: 5

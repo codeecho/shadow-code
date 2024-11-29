@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2332680018727306428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 680928461026533970}
+  - component: {fileID: 6618298705782295767}
+  - component: {fileID: 2006449944993542040}
+  m_Layer: 0
+  m_Name: Gun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &680928461026533970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332680018727306428}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 310208084146912095}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6618298705782295767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332680018727306428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a93c953f6223440fa61ee6fd42fc9ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3382004417663440236, guid: 092bdc73ee9274240b77ea2addf6e143, type: 3}
+  delay: 0
+  autoFire: 0
+  emitters: 1
+  offset: {x: 0, y: 0}
+  emitterDelay: 0
+  bulletAngle: 0
+  bulletSpeed: 4
+  bulletAcceleration: 0
+  bulletLifeSpan: 4
+  bulletPower: 1
+  rateOfFire: 1
+  rotateSpeed: 0
+  pauseInterval: 0
+  pauseLength: 0
+  iterations: 1
+  trigger: 0
+  onShootBullet:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2006449944993542040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332680018727306428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16400fb46d5a043ae97f783273764792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isActive: 0
+  activationDelay: 0
+  onlyOnActivation: 0
+--- !u!1001 &6602652019984973221
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3513255745030774381, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: direction.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816091652071254, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62fc2141047444251b41ed11a06336c1, type: 3}
+    - target: {fileID: 6912816091724781691, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62fc2141047444251b41ed11a06336c1, type: 3}
+    - target: {fileID: 6912816092461123269, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_Name
+      value: Fly Straight and Shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123321, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7639623
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123321, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.008311242
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+--- !u!4 &310208084146912095 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6912816092461123322, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+  m_PrefabInstance: {fileID: 6602652019984973221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &310208084146912096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6912816092461123269, guid: 8e5ec46978e0f452cb0962012a98c144, type: 3}
+  m_PrefabInstance: {fileID: 6602652019984973221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4769014982850994564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310208084146912096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548236a419eb34b2680548ade2153fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.5
+  eventToTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6618298705782295767}
+        m_TargetAssemblyTypeName: StandardBulletController, Assembly-CSharp
+        m_MethodName: Shoot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

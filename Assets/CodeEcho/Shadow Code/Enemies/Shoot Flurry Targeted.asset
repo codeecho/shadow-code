@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bd67bf3e7f44b07a13b08f480b9fdf, type: 3}
+  m_Name: Shoot Flurry Targeted
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2029770639652142659, guid: 2b0d394c2a5db4ba7bac9c1b6b1afff2, type: 3}
+  score: 6
+  duration: 5
